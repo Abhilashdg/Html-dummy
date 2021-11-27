@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <style>
+      li {
+        font-family: monospace;
+        font-size: x-large;
+      }
+
+      p {
+        text-align: center;
+      }
+  </style>
+</head>
+
+<body>
+  <br>
+  <ul class="nav">
+    <li class="nav-item">
+      <a href="#" class="nav-link">Link 1</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">Link 2</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">Link 3</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">Link 4</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">Link 5</a>
+    </li>
+  </ul>
+  <br>
+  <hr>
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a href="#" class="nav-link disabled">Link 1</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link disabled">Link 2</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link disabled">Link 3</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link disabled">Link 4</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link disabled">Link 5</a>
+    </li>
+  </ul>
+  <br>
+  <hr>
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a href="#" class="nav-link">Link 1</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">Link 2</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">Link 3</a>
+    </li>
+    <li hclass="nav-item">
+      <a href="#" class="nav-link">Link 4</a>
+    <li class="nav-item">
+      <a href="#" class="nav-link">Link 5</a>
+    </li>
+  </ul>
+  <br>
+  <hr>
+
+  <ul class="nav nav-pills mb-5 justify-content-center">
+    <li class="nav-item">
+      <a href="#pills-Shakespeare" class="nav-link" data-toggle="pill">Shakespeare</a>
+    </li>
+    <li class="nav-item">
+      <a href="#pills-Montaigne" class="nav-link" data-toggle="pill">Montaigne</a>
+    </li>
+    <li class="nav-item">
+      <a href="#pills-Melville" class="nav-link" data-toggle="pill">Melville</a>
+    </li>
+    <li class="nav-item">
+      <a href="#pills-Poe" class="nav-link" data-toggle="pill">Poe</a>
+    </li>
+    <li class="nav-item">
+      <a href="#pills-Hemingway" class="nav-link active" data-toggle="pill">Hemingway</a>
+    </li>
+  </ul>
+  <div class="tab-content justify-content-center">
+    <div id="pills-Shakespeare" class="tab-pane fade">
+      <p>Full fathom five thy father lies, of his bones are coral made.<br>
+        Those are pearls that were his eyes. Nothing of him that doth fade,<br>
+        but doth suffer a sea-change into something rich and strange.
+      </p>
+    </div>
+    <div id="pills-Montaigne" class="tab-pane fade">
+      <p>When I am attacked by gloomy thoughts,<br>
+        nothing helps me so much as running to my books.<br>
+        They quickly absorb me and banish the clouds from my mind.
+      </p>
+    </div>
+    <div id="pills-Melville" class="tab-pane fade">
+      <p>We cannot live only for ourselves.<br>
+        A thousand fibers connect us with our fellow men;<br>
+        and among those fibers, as sympathetic threads, our actions run as causes,<br>
+        and they come back to us as effects.
+      </p>
+    </div>
+    <div id="pills-Poe" class="tab-pane fade">
+      <p>Men have called me mad; but the question is not yet settled,<br>
+        whether madness is or is not the loftiest intelligence&mdash; whether much that is glorious&mdash; <br>
+        whether all that is profound&mdash; does not spring from disease of thought&mdash; <br>
+        from moods of mind exalted at the expense of the general intellect.
+      </p>
+    </div>
+    <div id="pills-Hemingway" class="tab-pane fade show active">
+      <p>The best people possess a feeling for beauty, the courage to take risks,<br>
+        the discipline to tell the truth, the capacity for sacrifice.<br>
+        Ironically, their virtues make them vulnerable; they are often wounded, sometimes destroyed.
+      </p>
+    </div>
+  </div>
+  <hr>
+
+  <ul class="nav nav-pills mb-5 flex-column">
+    <li class="nav-item">
+      <a href="#pills-Shakespeare" class="nav-link" data-toggle="pill">Shakespeare</a>
+    </li>
+    <li class="nav-item">
+      <a href="#pills-Montaigne" class="nav-link" data-toggle="pill">Montaigne</a>
+    </li>
+    <li class="nav-item">
+      <a href="#pills-Melville" class="nav-link" data-toggle="pill">Melville</a>
+    </li>
+    <li class="nav-item">
+      <a href="#pills-Poe" class="nav-link" data-toggle="pill">Poe</a>
+    </li>
+    <li class="nav-item">
+      <a href="#pills-Hemingway" class="nav-link active" data-toggle="pill">Hemingway</a>
+    </li>
+  </ul>
+  <hr>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
